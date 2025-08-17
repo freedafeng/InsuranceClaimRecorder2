@@ -29,9 +29,22 @@
 		B2D380112E511022005EA4B5 /* InsuranceClaimRecorder2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsuranceClaimRecorder2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B2D3802F2E513C27005EA4B5 /* Exceptions for "InsuranceClaimRecorder2" folder in "InsuranceClaimRecorder2" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B2D37FF92E511021005EA4B5 /* InsuranceClaimRecorder2 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B2D37FFC2E511021005EA4B5 /* InsuranceClaimRecorder2 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B2D3802F2E513C27005EA4B5 /* Exceptions for "InsuranceClaimRecorder2" folder in "InsuranceClaimRecorder2" target */,
+			);
 			path = InsuranceClaimRecorder2;
 			sourceTree = "<group>";
 		};
@@ -400,6 +413,7 @@
 				DEVELOPMENT_TEAM = NQZJJT67UL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InsuranceClaimRecorder2/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "To record videos for insurance claims";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To geotag the video for fraud detection";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To record audio for insurance claim videos";
@@ -431,6 +445,7 @@
 				DEVELOPMENT_TEAM = NQZJJT67UL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InsuranceClaimRecorder2/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "To record videos for insurance claims";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To geotag the video for fraud detection";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To record audio for insurance claim videos";
