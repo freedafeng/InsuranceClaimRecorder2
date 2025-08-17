@@ -1,0 +1,55 @@
+# General
+.DS_Store
+.env
+.env.*
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+*.egg-info/
+venv/
+.venv/
+env/
+.env/
+*.so
+*.dll
+*.exe
+*.zip
+*.tar.gz
+uploads/
+
+# Xcode
+#
+# gitignore contributors: remember to keep this file simple and straightforward
+# See https://github.com/github/gitignore/blob/main/Global/Xcode.gitignore
+#
+# build
+build/
+DerivedData/
+#
+# various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+#
+# other
+*.moved-aside
+*.xccheckout
+*.xcworkspace
+#
+# Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+# Package.resolved
+.build/
