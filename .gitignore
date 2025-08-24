@@ -20,7 +20,7 @@ env/
 *.exe
 *.zip
 *.tar.gz
-uploads/
+# uploads/
 
 # Xcode
 #
